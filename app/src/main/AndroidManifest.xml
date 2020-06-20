@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.akbayogi.arulinapps">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Checkout_PanenjoanAct"></activity>
+        <activity android:name=".HomeAct" />
+        <activity android:name=".SuccessRegistAct" />
+        <activity android:name=".VerifDataAct" />
+        <activity android:name=".SignUpAct" />
+        <activity android:name=".Walktrough" />
+        <activity android:name=".LoginAct" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
