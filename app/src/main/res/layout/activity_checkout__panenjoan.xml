@@ -4,122 +4,190 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#EDF1F8"
     tools:context=".Checkout_PanenjoanAct">
 
     <View
         android:id="@+id/view"
         android:layout_width="420dp"
-        android:layout_height="147dp"
-        android:background="@color/greenprimer"
+        android:layout_height="205dp"
+        android:background="@drawable/panenjoan"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.555"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="64dp"
-        android:layout_height="64dp"
-
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="42dp"
-        android:src="@drawable/panenjoan"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView11"
-        android:layout_width="wrap_content"
-        android:layout_height="22dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="52dp"
-        android:fontFamily="@font/mmedium"
-        android:text="PANENJOAN JATIGEDE"
-        android:textColor="#F2E7E7"
-        android:textSize="18sp"
-        app:layout_constraintStart_toEndOf="@+id/imageView5"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="22dp"
-        android:layout_marginStart="44dp"
-        android:layout_marginTop="8dp"
-        android:fontFamily="@font/mlight"
-        android:text="Kabupaten Sumedang"
-        android:textColor="#F2E7E7"
-        android:textSize="13sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.075"
-        app:layout_constraintStart_toEndOf="@+id/imageView5"
-        app:layout_constraintTop_toBottomOf="@+id/textView11" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="20dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="15dp"
-        android:fontFamily="@font/mmedium"
-        android:text="SEBELUM BERANGKAT, CEK DULU FOTONYA!"
-        android:textColor="@color/greenprimer"
-        android:textSize="10sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/view" />
-
-    <HorizontalScrollView
-        android:id="@+id/horizontalScrollView"
+    <LinearLayout
+        android:id="@+id/LLdetail_panenjoan"
         android:layout_width="match_parent"
-        android:layout_height="120dp"
+        android:layout_height="260dp"
         android:layout_marginStart="24dp"
-
-        android:layout_marginTop="16dp"
-
-        android:scrollbars="none"
+        android:layout_marginTop="180dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/bg_layout_white"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3">
+        app:layout_constraintTop_toTopOf="parent">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Panenjoan Jatigede"
+            android:fontFamily="@font/msemibold"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center"
+            android:textSize="18sp"
+            android:textColor="@color/greenprimer"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kabupaten Sumedang"
+            android:fontFamily="@font/msemibold"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textSize="13sp"
+            android:textColor="@color/greenprimer"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="130dp"
+            android:text="@string/desc_panenjoan"
+            android:textSize="12sp"
+            android:gravity="center"
+
+
+            />
+
+    </LinearLayout>
+
+
+
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:background="@drawable/bg_circle_picture"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/circlePanenjoan" />
+    <ImageView
+        android:id="@+id/circlePanenjoan"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="140dp"
+        android:src="@drawable/panenjoan_circle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view" />
+
+    <LinearLayout
+        android:id="@+id/LLdetail2_panenjoan"
+        android:layout_width="match_parent"
+        android:layout_height="136dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/bg_layout_white"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LLdetail_panenjoan" >
 
         <LinearLayout
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <ImageView
-                android:layout_width="257dp"
-                android:layout_height="150dp"
-                android:layout_marginRight="24dp"
-                android:src="@drawable/panenjoan1" />
-
-            <ImageView
-                android:layout_width="257dp"
-                android:layout_height="150dp"
-                android:layout_marginRight="24dp"
-                android:src="@drawable/panenjoan2" />
-
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            >
+        <ImageView
+            android:layout_width="31dp"
+            android:layout_height="31dp"
+            android:src="@drawable/location"
+            />
+            
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jemah, Kecamatan Jatigede, Kabupaten Sumedang"
+               android:fontFamily="@font/mregular"
+                android:textSize="11sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                />
         </LinearLayout>
-    </HorizontalScrollView>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            >
+            <ImageView
+                android:layout_width="31dp"
+                android:layout_height="31dp"
+                android:src="@drawable/family"
+                />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="18dp"
-        android:layout_marginStart="64dp"
-        android:layout_marginTop="12dp"
-        android:text="Source : sumedangtandang.com"
-        android:textColor="@color/greenprimer"
-        android:textSize="9sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cocok Untuk Liburan Keluarga"
+                android:fontFamily="@font/mregular"
+                android:textSize="11sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            >
+            <ImageView
+                android:layout_width="31dp"
+                android:layout_height="31dp"
+                android:src="@drawable/photography"
+                />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="18dp"
-        android:layout_marginTop="12dp"
-        android:layout_marginEnd="4dp"
-        android:text="Source : YT Dharma Ayu"
-        android:textColor="@color/greenprimer"
-        android:textSize="9sp"
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Spot Foto Terbaik"
+                android:fontFamily="@font/mregular"
+                android:textSize="11sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_panenjoandetail"
+        android:text="LIHAT GALERI FOTO"
+        android:fontFamily="@font/mmedium"
+        android:textColor="#ffffff"
+        android:textSize="17sp"
+        android:layout_width="264dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bg_btn_primaryhijau"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView" />
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LLdetail2_panenjoan" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

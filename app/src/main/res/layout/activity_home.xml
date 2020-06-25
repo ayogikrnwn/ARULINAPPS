@@ -8,6 +8,7 @@
     tools:context=".HomeAct">
 
     <View
+        android:id="@+id/view2"
         android:layout_width="420dp"
         android:layout_height="216dp"
         android:background="#00B5BC"
@@ -56,76 +57,148 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
-    <LinearLayout
-        android:id="@+id/linearLayout"
-        android:layout_width="match_parent"
-        android:layout_height="84dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="36dp"
-        android:layout_marginEnd="24dp"
-        android:background="@drawable/bg_layout_white"
-        android:orientation="vertical"
-        android:paddingTop="10dp"
-        android:paddingLeft="10dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView9">
-
-        <TextView
-            android:layout_width="54dp"
-            android:layout_height="15dp"
-            android:text="SALDO"
-
-            android:fontFamily="@font/mregular"
-            android:textSize="12sp"
-            android:textColor="#00B5BC"
-            />
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginTop="8dp">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Rp500.000"
-                android:textSize="22sp"
-                android:fontFamily="@font/mmedium"
-                android:textColor="#000000"
-                />
-            <Button
-                android:layout_width="83dp"
-                android:layout_height="33dp"
-                android:layout_marginLeft="90dp"
-                android:background="@drawable/bg_btn_primaryhijau"
-                android:text="ISI SALDO"
-                android:textColor="#ffffff"
-                android:fontFamily="@font/mmedium"
-                />
-        </LinearLayout>
-    </LinearLayout>
 
     <TextView
         android:id="@+id/textView10"
         android:layout_width="158dp"
         android:layout_height="18dp"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="13dp"
+        android:layout_marginTop="60dp"
         android:fontFamily="@font/mmedium"
         android:text="MAU PIKNIK KEMANA?"
         android:textColor="@color/greenprimer"
         android:textSize="13sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+        app:layout_constraintTop_toBottomOf="@+id/view2" />
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+
+        android:scrollbars="none"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView9">
+
+            <LinearLayout
+                android:id="@+id/LLsejarah"
+                android:layout_width="113dp"
+                android:layout_height="87dp"
+
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg_layout_white"
+                android:orientation="vertical"
+
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView9">
+
+                <ImageView
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:src="@drawable/find" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/mregular"
+                    android:text="Sejarah Sumedang"
+                    android:textSize="9sp"
+
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/LLmakanan"
+                android:layout_width="113dp"
+                android:layout_height="87dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg_layout_white"
+                android:orientation="vertical"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView9">
+
+                <ImageView
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginBottom="10dp"
+                    android:src="@drawable/tofu" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/mregular"
+                    android:text="Makanan Khas"
+                    android:textSize="9sp"
+
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LLhotel"
+                android:layout_width="113dp"
+                android:layout_height="87dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg_layout_white"
+                android:orientation="vertical"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView9">
+
+                <ImageView
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginBottom="10dp"
+                    android:src="@drawable/hotel" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/mregular"
+                    android:text="Info Penginapan"
+                    android:textSize="9sp"
+
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
 
     <LinearLayout
         android:id="@+id/btn_panenjoan"
         android:layout_width="match_parent"
         android:layout_height="74dp"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="24dp"
         android:background="@drawable/bg_layout_white"
         android:orientation="horizontal"
@@ -135,23 +208,24 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView10">
-    
+
         <ImageView
             android:layout_width="45dp"
             android:layout_height="45dp"
-            android:src="@drawable/panenjoan"
-            />
+            android:src="@drawable/icon_panenjoan" />
+
         <TextView
             android:layout_width="200dp"
             android:layout_height="29dp"
-            android:text="PANENJOAN JATIGEDE"
-            android:layout_marginTop="15dp"
             android:layout_marginLeft="10dp"
-            android:textSize="16sp"
+            android:layout_marginTop="15dp"
             android:fontFamily="@font/mmedium"
-            android:textColor="@color/greenprimer"/>
+            android:text="PANENJOAN JATIGEDE"
+
+            android:textSize="16sp" />
 
     </LinearLayout>
+
     <LinearLayout
         android:id="@+id/linearLayout3"
         android:layout_width="match_parent"
@@ -179,7 +253,7 @@
             android:layout_marginTop="15dp"
             android:fontFamily="@font/mmedium"
             android:text="KAMPUNG KARUHUN"
-            android:textColor="@color/greenprimer"
+
             android:textSize="16sp" />
 
     </LinearLayout>
@@ -210,7 +284,7 @@
             android:layout_marginTop="15dp"
             android:fontFamily="@font/mmedium"
             android:text="BATU DUA PARAGLIDING"
-            android:textColor="@color/greenprimer"
+
             android:textSize="16sp" />
 
     </LinearLayout>
@@ -241,7 +315,7 @@
             android:layout_marginTop="15dp"
             android:fontFamily="@font/mmedium"
             android:text="NANGORAK CAMPING"
-            android:textColor="@color/greenprimer"
+
             android:textSize="16sp" />
 
     </LinearLayout>
