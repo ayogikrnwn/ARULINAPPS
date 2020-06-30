@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "400882362043",
+    "firebase_url": "https://arulinappsfix.firebaseio.com",
+    "project_id": "arulinappsfix",
+    "storage_bucket": "arulinappsfix.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:400882362043:android:d71f64dfd420093d072b9e",
+        "android_client_info": {
+          "package_name": "com.akbayogi.fixarulinapps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "400882362043-3l1isk3au8csg4rhkj5vu9n6b1g4sjmi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.akbayogi.fixarulinapps",
+            "certificate_hash": "bd067c730146ea3e03d46d4831b67546e52176e5"
+          }
+        },
+        {
+          "client_id": "400882362043-i2ljre2rn0tcl3vaj1fljs24ccqfuclu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYOF3E3sErhWDmrE5pq2RQR6oS-Aqc-aM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "400882362043-i2ljre2rn0tcl3vaj1fljs24ccqfuclu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

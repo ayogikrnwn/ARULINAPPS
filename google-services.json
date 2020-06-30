@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "268762413067",
+    "firebase_url": "https://arulinapps.firebaseio.com",
+    "project_id": "arulinapps",
+    "storage_bucket": "arulinapps.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:268762413067:android:08db6525d7875d4094af0e",
+        "android_client_info": {
+          "package_name": "com.akbayogi.arulinapps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "268762413067-e92ap8tcrk2j0b8pd064eujs0f0bt2t2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.akbayogi.arulinapps",
+            "certificate_hash": "bd067c730146ea3e03d46d4831b67546e52176e5"
+          }
+        },
+        {
+          "client_id": "268762413067-nupupuf494m6m1hg6chdeirl46l4p3bl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuUvn1Y4GwCSDifLmRz_IjaVec1ofo5kk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "268762413067-nupupuf494m6m1hg6chdeirl46l4p3bl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Intro">
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="match_parent"
+        android:layout_height="640dp"
+        android:background="@drawable/intro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="212dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:orientation="vertical"
+        android:background="@drawable/bg_layout_white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/btn_masuk"
+            android:layout_width="264dp"
+            android:layout_height="55dp"
+            android:background="@drawable/bg_btn_primaryhijau"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:text="MASUK"
+            android:fontFamily="@font/mmedium"
+            android:textSize="19sp"
+            android:textColor="#ffffff"
+
+            />
+
+        <Button
+           android:id="@+id/btn_daftar22"
+            android:layout_width="264dp"
+            android:layout_height="55dp"
+            android:background="@drawable/bg_btn_primaryhijau"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="DAFTAR"
+            android:fontFamily="@font/mmedium"
+            android:textSize="19sp"
+            android:textColor="#ffffff"
+
+            />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,8 +1,21 @@
 <resources>
-    <string name="app_name">ARULINAPPS</string>
+    <string name="app_name">ARULINS</string>
     <string name="next">LANJUT</string>
     <string name="skip">LEWATI</string>
     <string name="start">MULAI</string>
     <string name="desc_panenjoan">Destinasi wisata Panenjoan ini terletak di Kecamatan Jatigede Kabupaten Sumedang. Di panenjoan ini anda bisa melihat view Waduk Jatigede yang dimana Waduk ini adalah waduk terbesar ke-2 di Indonesia. Akses jalan yang menarik adalah melalui Jalan
         Lingkar Timur yang bisa di akses dari Kecamatan Jatinunggal. Namun bisa juga melalui Kecamatan Situraja dan Kecamatan Tomo.  Destinasi wisata ini sangat tepat bagi Anda yang ingin berlibur Bersama keluarga </string>
+    <string name="desc_kampkar">
+        Wisata Kampung Karuhun sangat tepat bagi anda yang ingin berwisata di alam, dengan udara yang sejuk dan tempat yang indah bisa melepas penat anda. Beberapa wahana modern yang dipadukan dengan suasana alami pegunungan yang membuat destinasi wisata ini sayang untuk kalian lewatkan jika ke Sumedang.
+    </string>
+    <string name="desc_batudua">
+        Destinasi wisata yang satu ini merupakan salah satu destinasi wisata special di Sumedang dan Jawa Barat. Pasalnya, Batu Dua ini pernah menjadi Venue gelaran akbar West Java Paragliding World Championship 2019. Dengan Udara sejuk dan pemandangan yang indah, menjadikan Batu Dua sebagai salah satu destinasi wisata yang wajib anda kunjungi di Kabupaten Sumedang.
+
+    </string>
+
+    <string name="desc_nangorak">
+        Untuk anda yang ingin mencoba pengalaman camping di pegunungan, Nangorak Camp ini sangat wajib anda coba. Disini kalian bisa merasakan pengalaman camping dengan teman atau keluarga anda dengan pemandangan kota sumedang.
+
+
+    </string>
 </resources>

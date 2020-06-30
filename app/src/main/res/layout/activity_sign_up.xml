@@ -58,6 +58,7 @@
             android:orientation="vertical">
 
             <TextView
+                android:id="@+id/a"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="12dp"
@@ -70,6 +71,7 @@
                 />
 
             <EditText
+                android:id="@+id/nama_lengkap"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:background="@drawable/bg_input_edit"
@@ -104,6 +106,7 @@
                 />
 
             <EditText
+                android:id="@+id/username"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:background="@drawable/bg_input_edit"
@@ -136,6 +139,7 @@
                 />
 
             <EditText
+                android:id="@+id/password"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:background="@drawable/bg_input_edit"

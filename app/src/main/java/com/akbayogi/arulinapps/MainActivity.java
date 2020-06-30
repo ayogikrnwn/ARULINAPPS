@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void run() {
                 //merubah activity ke activity lain
-                Intent gogetstarted = new Intent(MainActivity.this, Walktrough.class);
+                Intent gogetstarted = new Intent(MainActivity.this, Intro.class);
                 startActivity(gogetstarted);
                 finish();
             }

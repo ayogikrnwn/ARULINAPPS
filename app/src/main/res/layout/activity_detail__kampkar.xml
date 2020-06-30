@@ -5,13 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#EDF1F8"
-    tools:context=".Checkout_PanenjoanAct">
+    tools:context=".Detail_Kampkar">
 
     <View
         android:id="@+id/view"
         android:layout_width="420dp"
         android:layout_height="205dp"
-        android:background="@drawable/panenjoan"
+        android:background="@drawable/kampkarheader"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.555"
         app:layout_constraintStart_toStartOf="parent"
@@ -38,7 +38,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Panenjoan Jatigede"
+            android:text="Kampung Karuhun"
             android:fontFamily="@font/msemibold"
             android:layout_marginTop="25dp"
             android:layout_gravity="center"
@@ -61,7 +61,7 @@
             android:layout_marginTop="10dp"
             android:layout_width="wrap_content"
             android:layout_height="130dp"
-            android:text="@string/desc_panenjoan"
+            android:text="@string/desc_kampkar"
             android:textSize="12sp"
             android:gravity="center"
 
@@ -86,7 +86,7 @@
         android:layout_width="65dp"
         android:layout_height="65dp"
         android:layout_marginTop="140dp"
-        android:src="@drawable/panenjoan_circle"
+        android:src="@drawable/kampkarcircle"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/view" />
@@ -124,7 +124,7 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="10dp"
                 android:fontFamily="@font/mregular"
-                android:text="Jemah, Kecamatan Jatigede, Kabupaten Sumedang"
+                android:text="Jl. Pagarbetis, Citengah, Kec. Sumedang Sel., Kabupaten Sumedang"
                 android:textSize="11sp" />
         </LinearLayout>
 
@@ -166,13 +166,13 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="10dp"
                 android:fontFamily="@font/mregular"
-                android:text="Rp 5.000 - Rp 10.000"
+                android:text="Rp 15.000 - Rp 30.000"
                 android:textSize="11sp" />
         </LinearLayout>
     </LinearLayout>
 
     <Button
-        android:id="@+id/btngaleri"
+        android:id="@+id/btn_galerykampkar"
         android:layout_width="264dp"
         android:layout_height="55dp"
         android:layout_marginTop="32dp"

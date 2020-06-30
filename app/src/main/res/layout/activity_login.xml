@@ -70,6 +70,7 @@
                 />
 
             <EditText
+                android:id="@+id/xusername"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:background="@drawable/bg_input_edit"
@@ -102,6 +103,7 @@
                 />
 
             <EditText
+                android:id="@+id/xpassword"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:background="@drawable/bg_input_edit"

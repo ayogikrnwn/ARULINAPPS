@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".galeri_panenjoan">
+
+    <View
+        android:id="@+id/view5"
+        android:layout_width="match_parent"
+        android:layout_height="177dp"
+
+        android:background="@color/greenprimer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="337dp"
+        android:layout_height="125dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="152dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/bg_btn_edtprof"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="40dp"
+            android:orientation="horizontal"
+            android:paddingBottom="4dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/mmedium"
+                android:text="GALERI FOTO PANENJOAN"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/accept" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/mmedium"
+            android:text="Foto Diambil dari beberapa sumber"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/circlePanenjoan"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="116dp"
+        android:src="@drawable/panenjoan_circle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="116dp"
+        android:background="@drawable/bg_circle_picture"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="24dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+        <LinearLayout
+            android:layout_width="152dp"
+            android:layout_height="144dp"
+            android:background="@drawable/bg_btn_edtprof"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="152dp"
+                android:layout_height="114dp"
+                android:src="@drawable/galeripanenjoan1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/msemibold"
+                android:text="Foto dari Rezza CR"
+                android:textColor="@color/greenprimer"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="152dp"
+            android:layout_height="144dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/bg_btn_edtprof"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="152dp"
+                android:layout_height="114dp"
+                android:src="@drawable/galeripanenjoan3" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/msemibold"
+                android:text="Foto dari Asep WK"
+
+                android:textColor="@color/greenprimer"
+                android:textSize="10sp" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="24dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+
+        <LinearLayout
+            android:layout_width="152dp"
+            android:layout_height="144dp"
+            android:background="@drawable/bg_btn_edtprof"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="152dp"
+                android:layout_height="114dp"
+                android:src="@drawable/galeripanenjoan1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/msemibold"
+                android:text="Foto dari Rezza CR"
+                android:textColor="@color/greenprimer"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="152dp"
+            android:layout_height="144dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/bg_btn_edtprof"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="152dp"
+                android:layout_height="114dp"
+                android:src="@drawable/galeripanenjoan3" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/msemibold"
+                android:text="Foto dari Asep WK"
+
+                android:textColor="@color/greenprimer"
+                android:textSize="10sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

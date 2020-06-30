@@ -45,7 +45,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView9"
+        android:id="@+id/txtnama"
         android:layout_width="174dp"
         android:layout_height="19dp"
         android:layout_marginStart="24dp"
@@ -80,7 +80,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView9">
+        app:layout_constraintTop_toBottomOf="@+id/txtnama">
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -227,7 +227,7 @@
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/linearLayout3"
+        android:id="@+id/LLkampkar"
         android:layout_width="match_parent"
         android:layout_height="74dp"
         android:layout_marginStart="24dp"
@@ -258,7 +258,7 @@
 
     </LinearLayout>
     <LinearLayout
-        android:id="@+id/linearLayout4"
+        android:id="@+id/LLbatudua"
         android:layout_width="match_parent"
         android:layout_height="74dp"
         android:layout_marginStart="24dp"
@@ -270,7 +270,7 @@
         android:paddingTop="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+        app:layout_constraintTop_toBottomOf="@+id/LLkampkar">
 
         <ImageView
             android:layout_width="45dp"
@@ -289,7 +289,7 @@
 
     </LinearLayout>
     <LinearLayout
-        android:id="@+id/linearLayout5"
+        android:id="@+id/LLnangorak"
         android:layout_width="match_parent"
         android:layout_height="74dp"
         android:layout_marginStart="24dp"
@@ -301,7 +301,7 @@
         android:paddingTop="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout4">
+        app:layout_constraintTop_toBottomOf="@+id/LLbatudua">
 
         <ImageView
             android:layout_width="45dp"
