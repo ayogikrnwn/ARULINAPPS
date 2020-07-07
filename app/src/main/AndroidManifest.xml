@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".galeri_panenjoan"></activity>
+        <activity android:name=".galeri_nangorakAct"></activity>
+        <activity android:name=".galeri_batudua" />
+        <activity android:name=".galeri_kampkarAct" />
+        <activity android:name=".galeri_panenjoan" />
         <activity android:name=".DetailNangorakAct" />
         <activity android:name=".DetailBatuduaAct" />
         <activity android:name=".Detail_Kampkar" />

@@ -24,7 +24,7 @@
         android:layout_marginEnd="16dp"
         android:background="@drawable/bg_btn_edtprof"
         android:fontFamily="@font/msemibold"
-        android:text="EDIT PROFILE"
+        android:text="ABOUT"
 
         android:textColor="#00B5BC"
         android:textSize="12sp"
@@ -319,4 +319,6 @@
             android:textSize="16sp" />
 
     </LinearLayout>
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

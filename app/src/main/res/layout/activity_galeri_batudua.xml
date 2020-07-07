@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#EDF1F8"
-    tools:context=".galeri_panenjoan">
+    tools:context="com.akbayogi.arulinapps.galeri_batudua">
 
     <View
         android:id="@+id/view5"
@@ -44,7 +44,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/mmedium"
-                android:text="GALERI FOTO PANENJOAN"
+                android:text="GALERI FOTO BATU DUA"
                 android:textSize="15sp" />
 
             <ImageView
@@ -71,7 +71,7 @@
         android:layout_height="65dp"
         android:layout_marginStart="36dp"
         android:layout_marginTop="116dp"
-        android:src="@drawable/panenjoan_circle"
+        android:src="@drawable/batudua_circle"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -107,7 +107,7 @@
             <ImageView
                 android:layout_width="152dp"
                 android:layout_height="114dp"
-                android:src="@drawable/galeripanenjoan1" />
+                android:src="@drawable/batddu1" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -115,9 +115,9 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
                 android:fontFamily="@font/msemibold"
-                android:text="Foto dari Rezza CR"
+                android:text="Foto dari IG @ssfotograf__"
                 android:textColor="@color/greenprimer"
-                android:textSize="10sp" />
+                android:textSize="8sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -130,7 +130,7 @@
             <ImageView
                 android:layout_width="152dp"
                 android:layout_height="114dp"
-                android:src="@drawable/galeripanenjoan3" />
+                android:src="@drawable/batdu2" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -138,10 +138,9 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
                 android:fontFamily="@font/msemibold"
-                android:text="Foto dari Asep WK"
-
+                android:text="Foto dari IG @ssfotograf__"
                 android:textColor="@color/greenprimer"
-                android:textSize="10sp" />
+                android:textSize="8sp" />
         </LinearLayout>
     </LinearLayout>
     <LinearLayout
@@ -156,51 +155,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
 
-        <LinearLayout
-            android:layout_width="152dp"
-            android:layout_height="144dp"
-            android:background="@drawable/bg_btn_edtprof"
-            android:orientation="vertical">
-
-            <ImageView
-                android:layout_width="152dp"
-                android:layout_height="114dp"
-                android:src="@drawable/panenjoangal3" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginTop="10dp"
-                android:fontFamily="@font/msemibold"
-                android:text="Dokumentasi Pribadi"
-                android:textColor="@color/greenprimer"
-                android:textSize="10sp" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="152dp"
-            android:layout_height="144dp"
-            android:layout_marginLeft="20dp"
-            android:background="@drawable/bg_btn_edtprof"
-            android:orientation="vertical">
-
-            <ImageView
-                android:layout_width="152dp"
-                android:layout_height="114dp"
-                android:src="@drawable/panenjoangal4" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginTop="10dp"
-                android:fontFamily="@font/msemibold"
-                android:text="Dokumentasi Pribadi"
-
-                android:textColor="@color/greenprimer"
-                android:textSize="10sp" />
-        </LinearLayout>
     </LinearLayout>
-
 </androidx.constraintlayout.widget.ConstraintLayout>

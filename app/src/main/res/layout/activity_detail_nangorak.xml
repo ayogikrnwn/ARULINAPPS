@@ -172,7 +172,7 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/btn_galerykampkar"
+        android:id="@+id/btn_galerynang"
         android:layout_width="264dp"
         android:layout_height="55dp"
         android:layout_marginTop="32dp"
