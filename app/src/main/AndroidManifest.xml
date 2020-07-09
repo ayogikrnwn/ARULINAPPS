@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".galeri_nangorakAct"></activity>
+        <activity android:name=".About"></activity>
+        <activity android:name=".Info_Penginapan" />
+        <activity android:name=".Makanan_Khas" />
+        <activity android:name=".Sejarah" />
+        <activity android:name=".galeri_nangorakAct" />
         <activity android:name=".galeri_batudua" />
         <activity android:name=".galeri_kampkarAct" />
         <activity android:name=".galeri_panenjoan" />

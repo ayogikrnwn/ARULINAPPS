@@ -4,321 +4,304 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#EDF1F8"
     tools:context=".HomeAct">
 
     <View
         android:id="@+id/view2"
-        android:layout_width="420dp"
-        android:layout_height="216dp"
-        android:background="#00B5BC"
+        android:layout_width="match_parent"
+        android:layout_height="106dp"
+        android:background="#F9F4F4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.555"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:layout_width="95dp"
-        android:layout_height="43dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="16dp"
-        android:background="@drawable/bg_btn_edtprof"
-        android:fontFamily="@font/msemibold"
-        android:text="ABOUT"
-
-        android:textColor="#00B5BC"
-        android:textSize="12sp"
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView7"
-        android:layout_width="154dp"
-        android:layout_height="19dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="99dp"
-        android:fontFamily="@font/mregular"
-        android:text="SELAMAT DATANG"
-        android:textColor="#ffffff"
-        android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="33dp"
+            android:layout_height="33dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/travel"
+
+            />
+
+        <TextView
+            android:id="@+id/txtnama2"
+            android:layout_width="wrap_content"
+            android:layout_height="19dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/msemibold"
+            android:text="Hi,"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txtnama"
+            android:layout_width="174dp"
+            android:layout_height="19dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/msemibold"
+            android:text="AYOGI KURNIAWAN"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/about"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/about" />
+
+    </LinearLayout>
 
     <TextView
-        android:id="@+id/txtnama"
-        android:layout_width="174dp"
-        android:layout_height="19dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="4dp"
-        android:fontFamily="@font/mregular"
-        android:text="AYOGI KURNIAWAN"
-        android:textSize="16sp"
-        android:textColor="#ffffff"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView7" />
-
-
-    <TextView
-        android:id="@+id/textView10"
-        android:layout_width="158dp"
-        android:layout_height="18dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="60dp"
-        android:fontFamily="@font/mmedium"
+        android:id="@+id/maupiknik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/msemibold"
         android:text="MAU PIKNIK KEMANA?"
-        android:textColor="@color/greenprimer"
-        android:textSize="13sp"
+        android:textColor="#000000"
+        android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view2" />
 
     <HorizontalScrollView
         android:id="@+id/horizontalScrollView"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/maupiknik">
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="233dp"
+
+        android:layout_height="179dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/maupiknik">
+
+        <LinearLayout
+            android:id="@+id/LLpanenjoan"
+            android:layout_width="233dp"
+            android:layout_height="179dp"
+            android:layout_marginLeft="10dp"
+
+            android:background="@drawable/bg_layout_white"
+            android:orientation="vertical"
+
+            app:layout_constraintTop_toBottomOf="@+id/maupiknik">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:src="@drawable/ftpanenjoan" />
+
+
+            />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/LLbatudua"
+            android:layout_width="233dp"
+            android:layout_height="179dp"
+            android:layout_marginLeft="10dp"
+
+            android:background="@drawable/bg_layout_white"
+            android:orientation="vertical"
+
+            app:layout_constraintTop_toBottomOf="@+id/maupiknik">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:src="@drawable/ftbatdu" />
+
+
+            />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/LLkampkar"
+            android:layout_width="233dp"
+            android:layout_height="179dp"
+            android:layout_marginLeft="10dp"
+
+            android:background="@drawable/bg_layout_white"
+            android:orientation="vertical"
+
+            app:layout_constraintTop_toBottomOf="@+id/maupiknik">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:src="@drawable/ftkampkar" />
+
+
+            />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/LLnangorak"
+            android:layout_width="233dp"
+            android:layout_height="179dp"
+            android:layout_marginLeft="10dp"
+
+            android:background="@drawable/bg_layout_white"
+            android:orientation="vertical"
+
+            app:layout_constraintTop_toBottomOf="@+id/maupiknik">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:src="@drawable/ftnangorak" />
+
+
+            />
+        </LinearLayout>
+    </LinearLayout>
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/msemibold"
+        android:text="KAMU HARUS TAU!"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView" />
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView2"
+        android:layout_width="wrap_content"
         android:layout_height="120dp"
 
         android:scrollbars="none"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtnama">
+        app:layout_constraintTop_toBottomOf="@+id/info">
 
-        <LinearLayout
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/info">
+
+    <LinearLayout
+        android:id="@+id/LLsejarah"
+        android:layout_width="113dp"
+        android:layout_height="87dp"
+
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bg_layout_white"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/info">
+
+        <ImageView
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/find" />
+
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="12dp"
-            android:layout_marginTop="20dp"
-            android:orientation="horizontal"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView9">
+            android:layout_gravity="center"
+            android:fontFamily="@font/mregular"
+            android:text="Sejarah Sumedang"
+            android:textSize="9sp"
 
-            <LinearLayout
-                android:id="@+id/LLsejarah"
-                android:layout_width="113dp"
-                android:layout_height="87dp"
+            />
 
-                android:layout_marginTop="20dp"
-                android:background="@drawable/bg_layout_white"
-                android:orientation="vertical"
-
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView9">
-
-                <ImageView
-                    android:layout_width="42dp"
-                    android:layout_height="42dp"
-                    android:layout_gravity="center"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginBottom="10dp"
-                    android:src="@drawable/find" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:fontFamily="@font/mregular"
-                    android:text="Sejarah Sumedang"
-                    android:textSize="9sp"
-
-                    />
-
-            </LinearLayout>
-
-
-            <LinearLayout
-                android:id="@+id/LLmakanan"
-                android:layout_width="113dp"
-                android:layout_height="87dp"
-                android:layout_marginStart="24dp"
-                android:layout_marginTop="20dp"
-                android:background="@drawable/bg_layout_white"
-                android:orientation="vertical"
-                android:paddingLeft="10dp"
-                android:paddingTop="10dp"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView9">
-
-                <ImageView
-                    android:layout_width="42dp"
-                    android:layout_height="42dp"
-                    android:layout_gravity="center"
-                    android:layout_marginTop="3dp"
-                    android:layout_marginBottom="10dp"
-                    android:src="@drawable/tofu" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:fontFamily="@font/mregular"
-                    android:text="Makanan Khas"
-                    android:textSize="9sp"
-
-                    />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:id="@+id/LLhotel"
-                android:layout_width="113dp"
-                android:layout_height="87dp"
-                android:layout_marginStart="24dp"
-                android:layout_marginTop="20dp"
-                android:background="@drawable/bg_layout_white"
-                android:orientation="vertical"
-                android:paddingLeft="10dp"
-                android:paddingTop="10dp"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView9">
-
-                <ImageView
-                    android:layout_width="42dp"
-                    android:layout_height="42dp"
-                    android:layout_gravity="center"
-                    android:layout_marginTop="3dp"
-                    android:layout_marginBottom="10dp"
-                    android:src="@drawable/hotel" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:fontFamily="@font/mregular"
-                    android:text="Info Penginapan"
-                    android:textSize="9sp"
-
-                    />
-            </LinearLayout>
-
-        </LinearLayout>
-    </HorizontalScrollView>
-
-
+    </LinearLayout>
     <LinearLayout
-        android:id="@+id/btn_panenjoan"
-        android:layout_width="match_parent"
-        android:layout_height="74dp"
-        android:layout_marginStart="24dp"
+        android:id="@+id/LLmakanan"
+        android:layout_width="113dp"
+        android:layout_height="87dp"
+
         android:layout_marginTop="20dp"
-        android:layout_marginEnd="24dp"
         android:background="@drawable/bg_layout_white"
-        android:orientation="horizontal"
-        android:paddingLeft="10dp"
-        android:paddingTop="10dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView10">
+        app:layout_constraintTop_toBottomOf="@+id/info">
 
         <ImageView
-            android:layout_width="45dp"
-            android:layout_height="45dp"
-            android:src="@drawable/icon_panenjoan" />
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/tofu" />
 
         <TextView
-            android:layout_width="200dp"
-            android:layout_height="29dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="15dp"
-            android:fontFamily="@font/mmedium"
-            android:text="PANENJOAN JATIGEDE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/mregular"
+            android:text="Makanan Khas"
+            android:textSize="9sp"
 
-            android:textSize="16sp" />
-
+            />
     </LinearLayout>
+        <LinearLayout
+            android:id="@+id/LLhotel"
+            android:layout_width="113dp"
+            android:layout_height="87dp"
 
-    <LinearLayout
-        android:id="@+id/LLkampkar"
-        android:layout_width="match_parent"
-        android:layout_height="74dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="7dp"
-        android:layout_marginEnd="24dp"
-        android:background="@drawable/bg_layout_white"
-        android:orientation="horizontal"
-        android:paddingLeft="10dp"
-        android:paddingTop="10dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_panenjoan">
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_layout_white"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/info">
 
-        <ImageView
-            android:layout_width="45dp"
-            android:layout_height="45dp"
-            android:src="@drawable/village" />
+            <ImageView
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/hotel" />
 
-        <TextView
-            android:layout_width="200dp"
-            android:layout_height="29dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="15dp"
-            android:fontFamily="@font/mmedium"
-            android:text="KAMPUNG KARUHUN"
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/mregular"
+                android:text="Info Penginapan"
+                android:textSize="9sp"
 
-            android:textSize="16sp" />
-
+                />
+        </LinearLayout>
     </LinearLayout>
-    <LinearLayout
-        android:id="@+id/LLbatudua"
-        android:layout_width="match_parent"
-        android:layout_height="74dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="7dp"
-        android:layout_marginEnd="24dp"
-        android:background="@drawable/bg_layout_white"
-        android:orientation="horizontal"
-        android:paddingLeft="10dp"
-        android:paddingTop="10dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/LLkampkar">
-
-        <ImageView
-            android:layout_width="45dp"
-            android:layout_height="45dp"
-            android:src="@drawable/parachute" />
-
-        <TextView
-            android:layout_width="230dp"
-            android:layout_height="29dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="15dp"
-            android:fontFamily="@font/mmedium"
-            android:text="BATU DUA PARAGLIDING"
-
-            android:textSize="16sp" />
-
-    </LinearLayout>
-    <LinearLayout
-        android:id="@+id/LLnangorak"
-        android:layout_width="match_parent"
-        android:layout_height="74dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="7dp"
-        android:layout_marginEnd="24dp"
-        android:background="@drawable/bg_layout_white"
-        android:orientation="horizontal"
-        android:paddingLeft="10dp"
-        android:paddingTop="10dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/LLbatudua">
-
-        <ImageView
-            android:layout_width="45dp"
-            android:layout_height="45dp"
-            android:src="@drawable/camping" />
-
-        <TextView
-            android:layout_width="270dp"
-            android:layout_height="29dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="15dp"
-            android:fontFamily="@font/mmedium"
-            android:text="NANGORAK CAMPING"
-
-            android:textSize="16sp" />
-
-    </LinearLayout>
-
-
+    </HorizontalScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -7,6 +7,8 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
@@ -18,7 +20,8 @@ import com.google.firebase.database.ValueEventListener;
 
 public class HomeAct extends AppCompatActivity {
 
-    LinearLayout btn_panenjoan, LLkampkar, LLbatudua, LLnangorak;
+    LinearLayout LLpanenjoan, LLkampkar, LLbatudua, LLnangorak, LLsejarah, LLmakanan, LLhotel ;
+    ImageView about;
     TextView txtnama;
 
     DatabaseReference reference;
@@ -33,8 +36,11 @@ public class HomeAct extends AppCompatActivity {
 
         getUsernamelocal();
 
-
-        btn_panenjoan = findViewById(R.id.btn_panenjoan);
+        LLsejarah = findViewById(R.id.LLsejarah);
+        LLmakanan = findViewById(R.id.LLmakanan);
+        LLhotel = findViewById(R.id.LLhotel);
+        about = findViewById(R.id.about);
+        LLpanenjoan = findViewById(R.id.LLpanenjoan);
         LLkampkar = findViewById(R.id.LLkampkar);
         LLbatudua = findViewById(R.id.LLbatudua);
         LLnangorak = findViewById(R.id.LLnangorak);
@@ -77,11 +83,39 @@ public class HomeAct extends AppCompatActivity {
                 startActivity(gokampkar);
             }
         });
-        btn_panenjoan.setOnClickListener(new View.OnClickListener() {
+        LLpanenjoan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent gocheckpanenjoan = new Intent(HomeAct.this, Checkout_PanenjoanAct.class);
                 startActivity(gocheckpanenjoan);
+            }
+        });
+        about.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent ab = new Intent(HomeAct.this, About.class);
+                startActivity(ab);
+            }
+        });
+        LLsejarah.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent s = new Intent(HomeAct.this, Sejarah.class);
+                startActivity(s);
+            }
+        });
+        LLmakanan.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent m = new Intent(HomeAct.this, Makanan_Khas.class);
+                startActivity(m);
+            }
+        });
+        LLhotel.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent h = new Intent(HomeAct.this, Info_Penginapan.class);
+                startActivity(h);
             }
         });
     }
