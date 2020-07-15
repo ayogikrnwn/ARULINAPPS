@@ -36,9 +36,10 @@
 
 
         <TextView
+            android:id="@+id/txtnama_wisata"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Panenjoan Jatigede"
+            android:text=""
             android:fontFamily="@font/msemibold"
             android:layout_marginTop="25dp"
             android:layout_gravity="center"
@@ -58,10 +59,11 @@
             android:textColor="@color/greenprimer"/>
 
         <TextView
+            android:id="@+id/txtdesc"
             android:layout_marginTop="10dp"
             android:layout_width="wrap_content"
             android:layout_height="130dp"
-            android:text="@string/desc_panenjoan"
+            android:text=""
             android:textSize="12sp"
             android:gravity="center"
 
@@ -119,12 +121,13 @@
                 android:src="@drawable/location" />
 
             <TextView
+                android:id="@+id/txtlokasi_wisata"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="10dp"
                 android:fontFamily="@font/mregular"
-                android:text="Jemah, Kecamatan Jatigede, Kabupaten Sumedang"
+                android:text=""
                 android:textSize="11sp" />
         </LinearLayout>
 
@@ -140,12 +143,13 @@
                 android:src="@drawable/family" />
 
             <TextView
+                android:id="@+id/txtdescsingkat"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="10dp"
                 android:fontFamily="@font/mregular"
-                android:text="Cocok Untuk Liburan Keluarga"
+                android:text=""
                 android:textSize="11sp" />
         </LinearLayout>
 
@@ -161,12 +165,13 @@
                 android:src="@drawable/cash" />
 
             <TextView
+                android:id="@+id/txtharga_tiket"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="10dp"
                 android:fontFamily="@font/mregular"
-                android:text="Rp 5.000 - Rp 10.000"
+                android:text=""
                 android:textSize="11sp" />
         </LinearLayout>
     </LinearLayout>

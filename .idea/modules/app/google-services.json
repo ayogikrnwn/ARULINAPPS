@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "400882362043-4cge3pei7p2ojuoc0pi8tp61l7aro7ej.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.akbayogi.fixarulinapps",
+            "certificate_hash": "6b345252b0a37892988fb5b231828385fe85c243"
+          }
+        },
+        {
           "client_id": "400882362043-3l1isk3au8csg4rhkj5vu9n6b1g4sjmi.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {

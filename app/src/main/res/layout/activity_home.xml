@@ -9,7 +9,7 @@
     <View
         android:id="@+id/view2"
         android:layout_width="match_parent"
-        android:layout_height="106dp"
+        android:layout_height="86dp"
         android:background="#F9F4F4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.555"
@@ -217,7 +217,7 @@
         android:layout_height="87dp"
 
         android:layout_marginTop="20dp"
-        android:background="@drawable/bg_layout_white"
+        android:background="@drawable/bg_btn_edtprof"
         android:orientation="vertical"
         android:layout_marginLeft="10dp"
         app:layout_constraintStart_toStartOf="parent"
@@ -248,7 +248,7 @@
         android:layout_height="87dp"
 
         android:layout_marginTop="20dp"
-        android:background="@drawable/bg_layout_white"
+        android:background="@drawable/bg_btn_edtprof"
         android:orientation="vertical"
         android:layout_marginLeft="20dp"
         app:layout_constraintStart_toStartOf="parent"
@@ -278,7 +278,7 @@
             android:layout_height="87dp"
 
             android:layout_marginTop="20dp"
-            android:background="@drawable/bg_layout_white"
+            android:background="@drawable/bg_btn_edtprof"
             android:orientation="vertical"
             android:layout_marginLeft="20dp"
             app:layout_constraintStart_toStartOf="parent"

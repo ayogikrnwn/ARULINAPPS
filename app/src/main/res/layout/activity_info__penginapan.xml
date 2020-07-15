@@ -82,7 +82,7 @@
                     android:layout_width="136dp"
                     android:layout_height="100dp"
                     android:layout_marginTop="10dp"
-                    android:src="@drawable/ssr" />
+                    android:src="@drawable/asr" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -145,7 +145,7 @@
                     android:layout_width="136dp"
                     android:layout_height="100dp"
                     android:layout_marginTop="10dp"
-                    android:src="@drawable/ssr" />
+                    android:src="@drawable/amor" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -209,7 +209,7 @@
                     android:layout_width="136dp"
                     android:layout_height="100dp"
                     android:layout_marginTop="10dp"
-                    android:src="@drawable/ssr" />
+                    android:src="@drawable/sapir" />
 
                 <LinearLayout
                     android:layout_width="match_parent"

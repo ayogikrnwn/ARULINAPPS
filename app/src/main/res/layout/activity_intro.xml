@@ -10,18 +10,56 @@
         android:id="@+id/view4"
         android:layout_width="match_parent"
         android:layout_height="640dp"
-        android:background="@drawable/intro"
+        android:background="@drawable/bgintro"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/mmedium"
+        android:text="ARULIN"
+        android:textColor="#ffffff"
+        android:textSize="35sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:fontFamily="@font/mmedium"
+        android:text="KE SUMEDANG"
+        android:textColor="#ffffff"
+        android:textSize="35sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:fontFamily="@font/mmedium"
+        android:text="AJA!"
+        android:textColor="#ffffff"
+        android:textSize="35sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
     <LinearLayout
+        android:id="@+id/LLanim"
         android:layout_width="match_parent"
         android:layout_height="212dp"
         android:layout_marginStart="24dp"
         android:layout_marginEnd="24dp"
-        android:orientation="vertical"
         android:background="@drawable/bg_layout_white"
+        android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
@@ -30,27 +68,27 @@
             android:id="@+id/btn_masuk"
             android:layout_width="264dp"
             android:layout_height="55dp"
-            android:background="@drawable/bg_btn_primaryhijau"
             android:layout_gravity="center"
             android:layout_marginTop="40dp"
-            android:text="MASUK"
+            android:background="@drawable/bg_btn_primaryhijau"
             android:fontFamily="@font/mmedium"
-            android:textSize="19sp"
+            android:text="MASUK"
             android:textColor="#ffffff"
+            android:textSize="19sp"
 
             />
 
         <Button
-           android:id="@+id/btn_daftar22"
+            android:id="@+id/btn_daftar22"
             android:layout_width="264dp"
             android:layout_height="55dp"
-            android:background="@drawable/bg_btn_primaryhijau"
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
-            android:text="DAFTAR"
+            android:background="@drawable/bg_btn_primaryhijau"
             android:fontFamily="@font/mmedium"
-            android:textSize="19sp"
+            android:text="DAFTAR"
             android:textColor="#ffffff"
+            android:textSize="19sp"
 
             />
     </LinearLayout>
