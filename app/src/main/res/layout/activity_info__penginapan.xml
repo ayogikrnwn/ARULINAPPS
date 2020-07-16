@@ -252,6 +252,19 @@
         </LinearLayout>
     </LinearLayout>
 
+    <TextView
+        android:id="@+id/textView120"
+        android:layout_width="wrap_content"
+        android:layout_height="19dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/msemibold"
+        android:text="Sumber : Google"
+        android:textColor="@color/greenprimer"
+        android:textSize="13sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout6" />
+
     <Button
         android:id="@+id/btnback"
         android:layout_width="264dp"

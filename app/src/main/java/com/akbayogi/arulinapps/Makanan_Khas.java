@@ -14,7 +14,7 @@ public class Makanan_Khas extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_sejarah);
+        setContentView(R.layout.activity_makanan__lhas);
 
         btnback = findViewById(R.id.btnback);
 

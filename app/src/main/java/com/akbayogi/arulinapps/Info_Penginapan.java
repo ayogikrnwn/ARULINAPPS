@@ -14,7 +14,7 @@ public class Info_Penginapan extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_sejarah);
+        setContentView(R.layout.activity_info__penginapan);
 
         btnback = findViewById(R.id.btnback);
 

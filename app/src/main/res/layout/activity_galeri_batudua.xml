@@ -85,6 +85,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
 
     <LinearLayout
         android:id="@+id/linearLayout3"
@@ -99,14 +107,14 @@
         app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
 
         <LinearLayout
-            android:layout_width="152dp"
-            android:layout_height="144dp"
+            android:layout_width="300dp"
+            android:layout_height="202dp"
             android:background="@drawable/bg_btn_edtprof"
             android:orientation="vertical">
 
             <ImageView
-                android:layout_width="152dp"
-                android:layout_height="114dp"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
                 android:src="@drawable/batddu1" />
 
             <TextView
@@ -115,21 +123,19 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
                 android:fontFamily="@font/msemibold"
-                android:text="Foto dari IG @ssfotograf__"
+                android:text="Foto dari @ssfotograf__"
                 android:textColor="@color/greenprimer"
-                android:textSize="8sp" />
+                android:textSize="10sp" />
         </LinearLayout>
-
         <LinearLayout
-            android:layout_width="152dp"
-            android:layout_height="144dp"
-            android:layout_marginLeft="20dp"
+            android:layout_width="300dp"
+            android:layout_height="202dp"
             android:background="@drawable/bg_btn_edtprof"
             android:orientation="vertical">
 
             <ImageView
-                android:layout_width="152dp"
-                android:layout_height="114dp"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
                 android:src="@drawable/batdu2" />
 
             <TextView
@@ -138,22 +144,11 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
                 android:fontFamily="@font/msemibold"
-                android:text="Foto dari IG @ssfotograf__"
+                android:text="Foto dari @ssfotograf__"
                 android:textColor="@color/greenprimer"
-                android:textSize="8sp" />
+                android:textSize="10sp" />
         </LinearLayout>
     </LinearLayout>
-    <LinearLayout
-        android:id="@+id/linearLayout4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="12dp"
-        android:layout_marginEnd="24dp"
-        android:orientation="horizontal"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+    </HorizontalScrollView>
 
-    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

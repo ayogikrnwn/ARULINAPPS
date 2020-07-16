@@ -85,86 +85,101 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-
-    <LinearLayout
-        android:id="@+id/linearLayout3"
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="12dp"
-        android:layout_marginEnd="24dp"
-        android:orientation="horizontal"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:scrollbars="none"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
 
         <LinearLayout
-            android:layout_width="152dp"
-            android:layout_height="144dp"
-            android:background="@drawable/bg_btn_edtprof"
-            android:orientation="vertical">
+            android:id="@+id/linearLayout3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="24dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
 
-            <ImageView
-                android:layout_width="152dp"
-                android:layout_height="114dp"
-                android:src="@drawable/galeripanenjoan1" />
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="202dp"
+                android:background="@drawable/bg_btn_edtprof"
+                android:orientation="vertical">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginTop="10dp"
-                android:fontFamily="@font/msemibold"
-                android:text="Foto dari Rezza CR"
-                android:textColor="@color/greenprimer"
-                android:textSize="10sp" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:src="@drawable/panen1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/msemibold"
+                    android:text="Foto dari Rezza CR"
+                    android:textColor="@color/greenprimer"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="202dp"
+                android:background="@drawable/bg_btn_edtprof"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:src="@drawable/panenjoangaleri2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/msemibold"
+                    android:text="Foto dari Asep WK"
+                    android:textColor="@color/greenprimer"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
         </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="152dp"
-            android:layout_height="144dp"
-            android:layout_marginLeft="20dp"
-            android:background="@drawable/bg_btn_edtprof"
-            android:orientation="vertical">
-
-            <ImageView
-                android:layout_width="152dp"
-                android:layout_height="114dp"
-                android:src="@drawable/galeripanenjoan3" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginTop="10dp"
-                android:fontFamily="@font/msemibold"
-                android:text="Foto dari Asep WK"
-
-                android:textColor="@color/greenprimer"
-                android:textSize="10sp" />
-        </LinearLayout>
-    </LinearLayout>
+    </HorizontalScrollView>
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView">
     <LinearLayout
         android:id="@+id/linearLayout4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
+        android:layout_marginStart="30dp"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="24dp"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+        app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView">
 
         <LinearLayout
-            android:layout_width="152dp"
-            android:layout_height="144dp"
+            android:layout_width="300dp"
+            android:layout_height="202dp"
             android:background="@drawable/bg_btn_edtprof"
             android:orientation="vertical">
 
             <ImageView
-                android:layout_width="152dp"
-                android:layout_height="114dp"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
                 android:src="@drawable/panenjoangal3" />
 
             <TextView
@@ -179,15 +194,14 @@
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="152dp"
-            android:layout_height="144dp"
-            android:layout_marginLeft="20dp"
+            android:layout_width="300dp"
+            android:layout_height="202dp"
             android:background="@drawable/bg_btn_edtprof"
             android:orientation="vertical">
 
             <ImageView
-                android:layout_width="152dp"
-                android:layout_height="114dp"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
                 android:src="@drawable/panenjoangal4" />
 
             <TextView
@@ -197,10 +211,11 @@
                 android:layout_marginTop="10dp"
                 android:fontFamily="@font/msemibold"
                 android:text="Dokumentasi Pribadi"
-
                 android:textColor="@color/greenprimer"
                 android:textSize="10sp" />
         </LinearLayout>
+
     </LinearLayout>
+    </HorizontalScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
