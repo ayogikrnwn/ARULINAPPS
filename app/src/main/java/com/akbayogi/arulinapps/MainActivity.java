@@ -17,7 +17,7 @@ protected void onCreate(Bundle savedInstanceState) {
         @Override
         public void run() {
             //merubah activity ke activity lain
-            Intent gogetstarted = new Intent(MainActivity.this, Intro.class);
+            Intent gogetstarted = new Intent(MainActivity.this, LoginAct.class);
             startActivity(gogetstarted);
             finish();
         }

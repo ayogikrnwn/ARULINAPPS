@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/travel"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".About"></activity>
+        <activity android:name=".LoginAct"> </activity>
+        <activity android:name=".About"/>
         <activity android:name=".Info_Penginapan" />
         <activity android:name=".Makanan_Khas" />
         <activity android:name=".Sejarah" />
@@ -20,14 +21,14 @@
         <activity android:name=".DetailNangorakAct" />
         <activity android:name=".DetailBatuduaAct" />
         <activity android:name=".Detail_Kampkar" />
-        <activity android:name=".Intro" />
         <activity android:name=".Checkout_PanenjoanAct" />
         <activity android:name=".HomeAct" />
         <activity android:name=".SuccessRegistAct" />
         <activity android:name=".VerifDataAct" />
         <activity android:name=".SignUpAct" />
-        <activity android:name=".LoginAct" />
-        <activity android:name=".MainActivity">
+
+            <activity android:name=".MainActivity">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
