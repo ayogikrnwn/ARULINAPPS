@@ -113,9 +113,10 @@
             android:orientation="vertical">
 
             <ImageView
+                android:id="@+id/joan1"
                 android:layout_width="match_parent"
                 android:layout_height="180dp"
-                android:src="@drawable/batddu1" />
+                 />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -134,9 +135,10 @@
             android:orientation="vertical">
 
             <ImageView
+                android:id="@+id/joan2"
                 android:layout_width="match_parent"
                 android:layout_height="180dp"
-                android:src="@drawable/batdu2" />
+               />
 
             <TextView
                 android:layout_width="wrap_content"
