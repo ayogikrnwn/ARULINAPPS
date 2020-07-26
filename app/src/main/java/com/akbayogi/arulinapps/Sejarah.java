@@ -21,8 +21,7 @@ public class Sejarah extends AppCompatActivity {
         btnback.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent backhome = new Intent(Sejarah.this, HomeAct.class);
-                startActivity(backhome);
+         onBackPressed();
             }
         });
     }

@@ -21,8 +21,7 @@ public class Info_Penginapan extends AppCompatActivity {
         btnback.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent backhome = new Intent(Info_Penginapan.this, HomeAct.class);
-                startActivity(backhome);
+                onBackPressed();
             }
         });
     }

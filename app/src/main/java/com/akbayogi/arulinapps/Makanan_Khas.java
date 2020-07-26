@@ -21,8 +21,7 @@ public class Makanan_Khas extends AppCompatActivity {
         btnback.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent backhome = new Intent(Makanan_Khas.this, HomeAct.class);
-                startActivity(backhome);
+            onBackPressed();
             }
         });
     }
